@@ -5,21 +5,16 @@ body{
    
 }
 
-.top-header{
-    background-color:#ce0606;
-}
+
 
 .navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #8a6500;
+    background-color: #BFA58E;
     z-index: 1;
     
-}
-.active{
-    background-color: rgba(0, 255, 0, 0.815);
 }
 
 header{
@@ -35,13 +30,17 @@ header{
     text-decoration: none;
     float:left;
 }
+.top-header{
+    background-color: white;
+    color: #000;
+}
 .navbar li a:hover{
-    background-color: #000;
+    background-color: #af8c6d;
 }
 
 
 #about{
-    background-image: url('/img/background.jpg');
+    background-color: white;
     padding: 3rem;
     margin: 0;
     text-align: center;
@@ -59,7 +58,8 @@ header{
     height: 200px;
     border-radius: 50%;
     float: left;
-    border:2px solid #0a0a0a;
+    color: #FFF;
+    border:2px solid ;
 }
 
 .codingStyle img {
@@ -103,14 +103,13 @@ figcaption{
     transform: scale(1.1);
 }
 .contact-header{
-    background-image: url('../img/background.jpg');
+    background-color: white;
     background-repeat: repeat-x;
     text-align: center;
     padding: 2rem;
     
 }
 #contactUs{
-
     background-color:  #d0f3f7;
     margin-top: 2rem;
     padding-bottom: 2rem;
@@ -118,7 +117,7 @@ figcaption{
 }
 .contact__fieldset{
     border: none;
-    max-width: 600px;
+    max-width: 200px;
 }
 
 .contact-label{
@@ -127,7 +126,8 @@ figcaption{
 }
 .contact-input,.contact-textarea{
     padding: 0.5em;
-    border-radius: 15px;
+    border: none;
+    border-radius: 10px;
     border-width: 2px;
     width: 100%;
 }
@@ -142,21 +142,21 @@ figcaption{
 
 
 .contact-button{
-    padding: 0.5rem;
+    padding: 1rem;
     margin-top: 1rem;
-    background-color: #4283fc;
-    border-bottom: 5px solid rgb(73, 45, 45);
-    border-radius: 15px;
-    border-left: 0;
+    width: 140px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
 }
 .contact-button:hover{
-    background-color:  #083b99;
+    background-color:  #e7e7e7;
 }
 
 
 footer{
     display: block;
-    background-image: url('/img/background.jpg');
+    background-color: #11164B;
     padding: 0.5rem;
     height: 50px;
     
@@ -166,16 +166,14 @@ footer{
     position: fixed;
     bottom: 0;
     right: 0;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
     color: #000;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace;
     letter-spacing: 2px;
     z-index: 1;
-    background-color: none;
+    background-color: #FFF;
   
-}
-.clock:hover{
-    font-size: 25px;
-    background-color: #b39999;
-    border-radius: 10px;
 }
