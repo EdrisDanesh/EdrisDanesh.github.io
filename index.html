@@ -22,12 +22,12 @@
         </header>
     <div class="main-container">
         <div id="about">
+            <img src="img/edris.jpg" alt="edris danesh" class="bio">
             <figure>
                 <ul>
-                    <img src="img/edris.jpg" alt="edris danesh" class="bio">
                     <h1>Edris Danesh</h1>
-                    <li><p>Hello Dear friends I'm a web developer. I hopping to get a new job in Lagward internership</p></li>
-                    <li><p>It's great to meet you all and please feel free to connect with me on <em><strong>linkedIn</strong></em> after meeting.</p></li>
+                    <li><p>Hello Dear friends I'm a web developer. I graduated from Hreat <strong>University, Software Engineering </strong> faculty in 2022.</p></li>
+                    <li><p>It's great to meet you all and please feel free to connect with me on <em><strong>linkedIn Twitter and GitHub</strong></em> after meeting.</p></li>
                     <li><p>It has been a pleasure introducing myself and I am excited for this opportunity to work with you.</p></li>
                     <li><p>I look forward to joining the Team and working with you.</p></li>
                 </ul>
@@ -42,7 +42,7 @@
                     <audio src="audio/audio.mp3" controls></audio>
                 </figure>
         </div>
-            <div class="container">
+            <div class="galler-container">
                 <div class="gallery">
                     <h1 class="gellery-h1">Images Gallery</h1>
                         <a href="img/image1.jpg" data-lightbox="gallery" data-title="Ocean"><img src="img/image1.jpg" alt=""></a>
@@ -58,7 +58,7 @@
                 <h3>Fill out the form below to learn more!</h3>
             </div>
             <form action="https://httpbin.org/get" method="get">
-                <fieldset class="contact__fieldset">
+                <div class="contact__fieldset">
                     <p> 
                         <label class="contact-label" for="Name">Name:</label> 
                         <input class="contact-input" type="text" placeholder="your name">
@@ -70,7 +70,7 @@
                         <label class="contact-label" for="message">Message:</label>
                         <textarea class="contact-textarea" name="Message" id="message" placeholder="leave a message" cols="70" rows="5"></textarea>
                         <button type="submit" class="contact-button">Submit</button>
-                </fieldset>
+                </div>
             </form>
         </div>
         <div id="myClock" class="clock" onload="showTime()">
@@ -79,9 +79,15 @@
         </div>
     </div>
     
-        <footer>
-            <p> all right reserved</p>
-        </footer>
+        <sectio class="footer"> 
+            <div class="footer-content">Follow Us
+            <div class="social">
+                <a href="#" class="twitter"><img src="img/twitter.png " alt="towitter image"></a>
+                <a href="#" class="insta"><img src="img/intagram.png" alt="instagram image"></a>
+                <a href="#" class="linkedin"><img src="img/linkedIn.png" alt="linkedin image"></a>
+            </div>
+        </div>
+        </sectio>
     <script src="js/lightbox-plus-jquery.js"></script>
     <script src="js/app.js"></script>
 </body>
