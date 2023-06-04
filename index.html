@@ -15,7 +15,7 @@
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="">Menu</a></li>
+                    <li><a href="#media">Media</a></li>
                     <li><a href="#contactUs">Contact Us</a></li>
                 </ul>
             </div>
@@ -33,16 +33,15 @@
                 </ul>
             </figure>
         </div>
-
-            <ul>
+        <div id="media">
+            <h1>Media</h1>
                 <figure class="codingStyle">
-                    <img src="img/wall.png" alt="coding style" sizes="full">
-                    <figcaption>conding style</figcaption>
-                    <video src="video/VID_20230516_002729_655.mp4" controls></video>
-                    <audio src="audio/audio.mp3" controls class="audio-fig" ></audio>
+                    <video src="video/vid.mp4" controls></video>
                 </figure>
-            </ul>
-          
+                <figure>
+                    <audio src="audio/audio.mp3" controls></audio>
+                </figure>
+        </div>
             <div class="container">
                 <div class="gallery">
                     <h1 class="gellery-h1">Images Gallery</h1>
@@ -58,19 +57,16 @@
                 <h1>Contact Us</h1>
                 <h3>Fill out the form below to learn more!</h3>
             </div>
-        
             <form action="https://httpbin.org/get" method="get">
                 <fieldset class="contact__fieldset">
                     <p> 
                         <label class="contact-label" for="Name">Name:</label> 
-                        <input class="contact-input" type="text" placeholder="edris">
+                        <input class="contact-input" type="text" placeholder="your name">
                     </p>
                     <p >
                         <label class="contact-label" for="emalil" >Email:</label> 
-                        <input class="contact-input" type="email" placeholder="edris.danish@gmail.com" required>
+                        <input class="contact-input" type="email" placeholder="example@gmail.com" required>
                     </p>
-                    <br><br><hr><br>
-
                         <label class="contact-label" for="message">Message:</label>
                         <textarea class="contact-textarea" name="Message" id="message" placeholder="leave a message" cols="70" rows="5"></textarea>
                         <button type="submit" class="contact-button">Submit</button>
