@@ -4,9 +4,6 @@ body{
     padding: 0;
    
 }
-
-
-
 .navbar ul{
     list-style-type: none;
     margin: 0;
@@ -14,21 +11,22 @@ body{
     overflow: hidden;
     background-color: #11164B;
     z-index: 1;
-    
 }
-
 header{
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
 }
-.top-header, .navbar li a {
+.top-header, .navbar ul li a {
     display: block;
     color: #fff;
     padding: 14px 16px;
+    text-align: center;
     text-decoration: none;
     float:left;
+    height: 20px;
+    justify-content: center;
 }
 .top-header{
     background-color: white;
@@ -40,40 +38,47 @@ header{
 
 
 #about{
-    background-color: white;
+    background-color: #ececec;
     padding: 3rem;
     margin: 0;
     text-align: center;
     font-family:'Courier New', Courier, monospace;
-    
-}
-#about h1 {
-    text-align: left;
-}
-#about ul{
-    list-style-type: none;
 }
 .bio{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     float: left;
-    color: #FFF;
+    color: #ececec;
     border:2px solid ;
 }
-
-.codingStyle img {
-    width: 100%;
+#about h1 {
     text-align: center;
-    box-shadow: 2px 2px 2px #110d0d;
-    float: left;
 }
-figcaption{
-    padding-bottom: 20px;
+#about ul{
+    list-style-type: none;
 }
-.codingStyle, figure{
-    display:block;
+#media{
+    background-color: #fff;
 }
+#media figure{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+#media h1{
+    text-align: center;
+    display: block;
+    background-color: #11164B;
+    color: #FFF;
+    padding: 40px;
+}
+#media figure video{
+   width: 70%;
+   height: auto;
+   text-align: center;
+}
+
 .container{
     min-height: 50vh;
     display: flex;
@@ -84,7 +89,8 @@ figcaption{
 }
 .gellery-h1{
     text-align: center;
-    color: #000;
+    color: #fff;
+    padding-bottom: 15px;
 }
 .gallery{
     margin: 10px 50px;
@@ -102,6 +108,7 @@ figcaption{
     filter: grayscale(0%);
     transform: scale(1.1);
 }
+
 .contact-header{
     background-color: white;
     background-repeat: repeat-x;
@@ -110,16 +117,22 @@ figcaption{
     
 }
 #contactUs{
-    background-color:  rgb(236, 236, 236);
+    background-color:  #ececec;
     margin-top: 2rem;
     padding-bottom: 2rem;
-
+    
+}
+.contact-header{
+    padding-top: 1rem;
 }
 .contact__fieldset{
     border: none;
     max-width: 200px;
+    justify-items: center;
 }
-
+.contact__fieldset, p{
+    justify-content: center;
+}
 .contact-label{
     display: block;
     font-weight: bold;
@@ -132,15 +145,10 @@ figcaption{
     width: 100%;
 }
 
-.contact-header{
-    padding-top: 3rem;
-}
 .contact-header, hr{
     font-size: larger;
     color:#000;
 }
-
-
 .contact-button{
     padding: 1rem;
     margin-top: 1rem;
@@ -157,8 +165,9 @@ figcaption{
 footer{
     display: block;
     background-color: #11164B;
+    color: #FFF;
     padding: 0.5rem;
-    height: 50px;
+    height: 100px;
     
 }
 
