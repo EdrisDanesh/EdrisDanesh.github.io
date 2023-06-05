@@ -118,7 +118,7 @@ header{
     margin-top: 2rem;
     padding-bottom: 2rem;
 }
-#contactUs form{
+#contactUs .contact-form{
     justify-content: center;
     display: flex;
 }
@@ -137,6 +137,7 @@ header{
 .contact-label{
     display: block;
     font-weight: bold;
+    padding:5px;
 }
 .contact-input,.contact-textarea{
     padding: 0.8em;
@@ -162,15 +163,17 @@ header{
     background-color: #11164B;
     color: #FFF;
     text-align: center;
-    padding: 10px;
-    height: 100px;
+    padding: 20px 5px 30px 5px;
+    height: 150px;
 }
 .social a img{
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
     padding: 20px;
     transition: 1s;
+}
+.social a #twitter{
+    width: 80px;
+    height: 80px;
 }
 .social a img:hover{
     transform: scale(1.1);
